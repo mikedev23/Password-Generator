@@ -63,4 +63,4 @@ Javascript, HTML, CSS, Figma, Sass, Tailwind React...etc
 
 ## 📋 License
 
-The Password Converter App is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
+The Password Generator App is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
