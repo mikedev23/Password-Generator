@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('../public/images/coder.png') no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+}
+
+.container {
+  background: #1b2430;
+  max-width: 650px;
+  padding: 25px;
+  border-radius: 5%;
+}
+
+#header-title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#subtext {
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+  margin-bottom: 40px;
+}
+
+.btn-container {
+  margin-bottom: 40px;
+}
+
+.btn-text {
+  width: 180px;
+  height: 42px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 42px;
+  color: #fff;
+  background-color: rgb(218, 96, 52);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-text:hover {
+  transform: scale(1.05);
+}
+
+.btn-text:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.border {
+  height: 1px;
+  background-color: #2f3e53;
+  margin-bottom: 40px;
+}
+
+section.password-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.password-box {
+  background: #273549;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+}
+
+.btn-text-one,
+.btn-text-two {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(252, 106, 52);
+  background-color: #273549;
+  border: none;
+  cursor: pointer;
+}
+
+.password-box h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 550px) {
+  .password-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
