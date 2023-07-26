@@ -1,6 +1,6 @@
 <h1 align="center" id="title">🔒Password Generator🔒</h1>
 
-<p align="center" id="description">👋🏾 Welcome to Password Generator React App 👋🏾</p>
+<p align="center" id="description">👋🏾 Welcome to the Password Generator React App 👋🏾</p>
 
 ## 🗒️ Description
 
